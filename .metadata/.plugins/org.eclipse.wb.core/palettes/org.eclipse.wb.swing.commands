@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addComponent
+		id="com.toedter.calendar.JCalendar_1495906466141"
+		name="JCalendar"
+		description="Custom component: com.toedter.calendar.JCalendar"
+		visible="true"
+		class="com.toedter.calendar.JCalendar"
+		category="org.eclipse.wb.swing.components"/>
+	<addComponent
+		id="com.toedter.calendar.JDateChooser_1495906466141"
+		name="JDateChooser"
+		description="Custom component: com.toedter.calendar.JDateChooser"
+		visible="true"
+		class="com.toedter.calendar.JDateChooser"
+		category="org.eclipse.wb.swing.components"/>
+	<addCategory
+		id="jcalendar-1.4_1495906562245"
+		name="jcalendar-1.4"
+		description="Container with import elements from C:\Users\tuski-Revolve\Downloads\Compressed\jcalendar-1.4.jar"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="com.toedter.calendar.JCalendar_1495906562245"
+		name="JCalendar"
+		description="Custom component: com.toedter.calendar.JCalendar"
+		visible="true"
+		class="com.toedter.calendar.JCalendar"
+		category="jcalendar-1.4_1495906562245"/>
+	<addComponent
+		id="com.toedter.calendar.JDateChooser_1495906562245"
+		name="JDateChooser"
+		description="Custom component: com.toedter.calendar.JDateChooser"
+		visible="true"
+		class="com.toedter.calendar.JDateChooser"
+		category="jcalendar-1.4_1495906562245"/>
+</commands>

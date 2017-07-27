@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.*;
+
+public class CollectionHelper {
+
+	public static void main(String[] args) {
+		
+		List<String> lst= new ArrayList<String>();
+		
+		List<String> ls1=new ArrayList();
+		ls1.add("one");
+		ls1.add("tusar");
+		
+		lst.add("one");
+		lst.add("two");
+		//lst.addAll(ls1);
+		
+		lst.retainAll(ls1);
+		
+		Iterator<String> itr= lst.iterator();
+		while(itr.hasNext()){
+			System.out.println(itr.next());
+		}
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.*;
+
+public class CollectionHelper {
+
+	public static void main(String[] args) {
+		
+		List<String> lst= new ArrayList<String>();
+		
+		
+	}
+
+}

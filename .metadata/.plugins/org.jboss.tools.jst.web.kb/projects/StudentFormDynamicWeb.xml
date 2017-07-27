@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths/>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="batch-verification"/>
+  <el>
+   <linked-el length="21" name="%0" offset="371" path="%1"/>
+   <linked-el length="24" name="%0" offset="482" path="%1"/>
+   <linked-el length="19" name="%0" offset="425" path="%1"/>
+   <linked-el length="21" name="%2" offset="371" path="%1"/>
+   <linked-el length="19" name="%3" offset="425" path="%1"/>
+   <linked-el length="24" name="%4" offset="482" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/StudentFormDynamicWeb/WebContent/showInfo.jsp" value="%1"/>
+  <alias path="param" value="%0"/>
+  <alias path="param.studentName" value="%2"/>
+  <alias path="param.studentID" value="%3"/>
+  <alias path="param.studentSubject" value="%4"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

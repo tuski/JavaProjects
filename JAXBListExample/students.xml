@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<student list>
+    <student>
+        <Name>Tusar</Name>
+        <department>CSE</department>
+        <id>123101</id>
+        <homeotwn>Rajshahi</homeotwn>
+    </student>
+    <student>
+        <Name>Rasel</Name>
+        <department>CSE</department>
+        <id>123102</id>
+        <homeotwn>Rajshahi</homeotwn>
+    </student>
+</student list>

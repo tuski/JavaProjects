@@ -1,0 +1,40 @@
+package com.Tusar.model;
+
+import java.io.Serializable;
+
+public class Student implements Serializable {
+
+	private String name,id,dept,address;
+
+	public Student(String name, String id, String dept, String address) {
+		super();
+		this.name = name;
+		this.id = id;
+		this.dept = dept;
+		this.address = address;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", id=" + id + ", dept=" + dept + ", address=" + address + "]";
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public String getDept() {
+		return dept;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+	
+	
+	
+}

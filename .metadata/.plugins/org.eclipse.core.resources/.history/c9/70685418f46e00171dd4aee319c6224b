@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" import= "com.Tusar.model.Student"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="infoForm.jsp"  method="get">
+
+Student Name: <br>
+<input type="text" name="studentName"> <br>  <br>
+
+ID: <br>
+<input type="text" name="studentID"> <br> <br>
+ 
+Subject: <br>
+<input type="text" name="studentSubject"> <br> <br>
+Address: <br>
+<input type="text" name="studentAddress"> <br> <br>
+<input type="submit" value="Submit">
+</form>
+
+<%
+String    name=request.getParameter("studentName");
+String    id=request.getParameter("studentID");
+String    dept=request.getParameter("studentSubject");
+String    adrs=request.getParameter("studentAddress");
+
+Student s=new Student(name,id,dept,adrs);
+
+out.println(s.toString());
+%>
+
+
+</body>
+</html>

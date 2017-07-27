@@ -1,0 +1,53 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num=0;
+		
+		try{
+			System.out.println("How many names you want to input?");
+			num=scan.nextInt();
+		}catch(InputMismatchException e){
+			System.out.println(e.getMessage());
+			System.out.println("Please enter integer number");
+		}
+		
+		
+		String[] names= new String[num];
+		
+		for(int i=0;i<num;i++){
+			names[i]=scan.nextLine();
+		}
+		
+		for(int i=0;i<num;i++){
+		System.out.println(names[i]+" ");	
+		}
+
+	}
+	
+	int getInput(){
+		int num=0;
+		Scanner scan= new Scanner(System.in);
+	while(true){	
+		try{
+			System.out.println("How many names you want to input?");
+			num=scan.nextInt();
+			break;
+			//return num;
+		}catch(InputMismatchException e){
+			System.out.println(e.getMessage());
+			System.out.println("Please enter integer number");
+			scan.next();
+		}
+		return num;
+	}
+		
+	}
+	
+	
+
+}
